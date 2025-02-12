@@ -134,12 +134,47 @@ $("#tag-privacy-box").click(function() {
 </center>
 
 <h2 class="label"><a name="statement"><span >Research Statement</span></a></h2> 
-As intelligent systems become pervasive, safeguarding their security and privacy is critical. However, recent research have demonstrated that machine learning systems, including state-of-the-art deep neural networks, can be easily fooled by an adversary. For example, it is easy to generate adversarial examples, which are close to the benign inputs but are misidentified by the machine learning models. Moreover, in our recent work, we have shown that such attacks can be successful even without access to the model internals, i.e., in a black-box setting. These attacks may cause severe outcomes: for example, the adversary can mislead the perceptual systems of autonomous vehicles to wrongly identify road signs, which can result in catastrophic traffic accidents. Therefore, such security issues hinder the application of machine learning to security-critical systems.
-
+The rapid advancement of AI—especially large language models (LLMs), large multimodal models, and AI agents—offers transformative opportunities while also necessitating robust safety and security measures. Ensuring that these powerful systems are trustworthy, secure, and aligned with human values is critical for their responsible deployment. Advanced models face diverse threats, for example: adversarial prompts can jailbreak aligned LLMs, prompt injection attacks can lead to unintended decisions and actions, small perturbations can mislead multimodal systems, and malicious agents can exploit vulnerabilities within cooperative ecosystems. To address these risks requires rigorous safety frameworks to ensure that AI remains reliable, trustworthy, secure, and aligned in real-world applications.
 <br><br>
+Our primary goal is to establish foundational principles and practical techniques for building safe and secure AI systems. We focus on understanding how the complex reasoning, multimodal understanding, and interactive capabilities of these systems may introduce novel vulnerabilities or offer unique defense opportunities. Our work is organized around these key areas:
 
-In AI security research, we aim at investigating into the vulnerability of automatic learning systems, and ultimately, developing robust defense strategies against such sophisticated adversarial manipulations in real-world applications.
- 
+<ul>
+<li>
+  <strong>Evaluation & Automated Red Teaming</strong>: Developing robust methodologies and automated tools—including benchmark creation and stress-testing—to proactively identify and address vulnerabilities.
+</li>
+
+<li>
+  <strong>Interpretability & Control</strong>: Enhancing transparency to reveal the decision-making processes of AI models, thereby identifying root causes of failures and bolstering trust in high-stakes applications.
+</li> 
+
+<li>
+  <strong>Robust Defenses</strong>: Designing novel mechanisms to detect, mitigate, and defend against adversarial attacks and other security threats, ensuring reliable operation in complex environments. 
+</li> 
+
+<li>
+  <strong>Alignment & Post-Training</strong>: Investigating advanced techniques to align AI systems with human guidelines after the pretraining phase. This includes reinforcement learning from human feedback, alignment fine-tuning, and continuous post-deployment evaluations to guard against drifts and misalignments over time. 
+</li> 
+
+</ul>
+
+<h3>Recognition & Awards</h3>
+<p>
+We are also proud to have been recognized for our contributions to the field of <strong>AI Safety and Security</strong>. Our work has been honored with prestigious awards, including:
+</p>
+
+<ul>
+
+<li>
+<strong>Best Research Paper Nomination</strong> at VLDB'24.
+</li>
+<li>
+<strong>Best Scientific Cybersecurity Paper Award</strong> by National Security Agency'24.
+</li>
+<li>
+<strong>Outstanding Paper Award</strong> at NeurIPS'23.
+</li>
+
+</ul> 
 <hr>
 
 <h2 class="label"><a name="publications"><span >Recent Publications</span></a></h2>
@@ -167,13 +202,160 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
     <tr>
-      <td width="200"><img src="imgs/llm-pbe.png" border="1" width="210"></td>
-      <td width="20"></td>
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://arxiv.org/abs/2410.07369"><strong>An Undetectable Watermark for Generative Image Models</strong></a></p>
+        <p class="content">Sam Gunn*, Xuandong Zhao*, Dawn Song</p>
+        <p class="content">International Conference on Learning Representations (ICLR). April, 2025.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://arxiv.org/abs/2410.06172"><strong>Multimodal Situational Safety</strong></a></p>
+        <p class="content">Kaiwen Zhou*, Chengzhi Liu*, Xuandong Zhao, Anderson Compalas, Dawn Song, Xin Eric Wang</p>
+        <p class="content">International Conference on Learning Representations (ICLR). April, 2025.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://arxiv.org/abs/2412.09538"><strong>Capturing the Temporal Dependence of Training Data Influence</strong></a></p>
+        <p class="content">Jiachen T. Wang, Dawn Song, James Zou, Prateek Mittal, Ruoxi Jia</p>
+        <p class="content">International Conference on Learning Representations (ICLR). April, 2025.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://arxiv.org/abs/2406.11011"><strong>Data Shapley in One Training Run</strong></a></p>
+        <p class="content">Jiachen T. Wang, Prateek Mittal, Dawn Song, Ruoxi Jia</p>
+        <p class="content">International Conference on Learning Representations (ICLR). April, 2025.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://arxiv.org/abs/2407.17436"><strong>AIR-Bench 2024: A Safety Benchmark based on Regulation and Policies Specified Risk Categories</strong></a></p>
+        <p class="content">Yi Zeng, Yu Yang, Andy Zhou, Jeffrey Ziwei Tan, Yuheng Tu, Yifan Mai, Kevin Klyman, Minzhou Pan, Ruoxi Jia, Dawn Song, Percy Liang, Bo Li</p>
+        <p class="content">International Conference on Learning Representations (ICLR). April, 2025.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://arxiv.org/abs/2405.00253"><strong>CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification</strong></a></p>
+        <p class="content">Yuchen Tian*, Weixiang Yan*, Qian Yang, Xuandong Zhao, Qian Chen, Wen Wang, Ziyang Luo, Lei Ma, Dawn Song</p>
+        <p class="content">Annual AAAI Conference on Artificial Intelligence (AAAI). February, 2025.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <!-- <td width="200"><img src="imgs/xxx.png" border="1" width="210"></td>
+      <td width="20"></td> -->
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://arxiv.org/abs/2412.07808"><strong>Boosting Alignment for Post-Unlearning Text-to-Image Generative Models</strong></a></p>
+        <p class="content">Myeongseob Ko*, Henry Li*, Zhun Wang, Jonathan Patsenker, Jiachen T. Wang, Qinbin Li, Ming Jin, Dawn Song, Ruoxi Jia</p>
+        <p class="content">Advances in Neural Information Processing Systems (NeurIPS). December, 2024.</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <!-- <td width="200"><img src="imgs/xxx.png" border="1" width="210"></td>
+      <td width="20"></td> -->
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://arxiv.org/abs/2407.12784"><strong>AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases</strong></a></p>
+        <p class="content">Zhaorun Chen, Zhen Xiang, Chaowei Xiao, Dawn Song, Bo Li</p>
+        <p class="content">Advances in Neural Information Processing Systems (NeurIPS). December, 2024.</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://openreview.net/forum?id=232VcN8tSx"><strong>GREATS: Online Selection of High-Quality Data for LLM Training in Every Iteration</strong></a></p>
+        <p class="content">Jiachen T. Wang, Tong Wu, Dawn Song, Prateek Mittal, Ruoxi Jia</p>
+        <p class="content">Advances in Neural Information Processing Systems (NeurIPS). December, 2024.</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <!-- <td width="200"><img src="imgs/dfba.png" border="1" width="210"></td>
+      <td width="20"></td> -->
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://arxiv.org/abs/2412.06219"><strong>Data Free Backdoor Attacks</strong></a></p>
+        <p class="content">Bochuan Cao, Jinyuan Jia, Chuxuan Hu, Wenbo Guo, Zhen Xiang, Jinghui Chen, Bo Li, Dawn Song</p>
+        <p class="content">Advances in Neural Information Processing Systems (NeurIPS). December, 2024.</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <!-- <td width="200"><img src="imgs/redcode.png" border="1" width="210"></td>
+      <td width="20"></td> -->
+      <td valign="middle" width="800">
+        <p class="content"><a href="https://arxiv.org/abs/2411.07781"><strong>RedCode: Risky Code Execution and Generation Benchmark for Code Agents</strong></a></p>
+        <p class="content">Chengquan Guo*, Xun Liu*, Chulin Xie*, Andy Zhou, Yi Zeng, Zinan Lin, Dawn Song, Bo Li</p>
+        <p class="content">Advances in Neural Information Processing Systems (NeurIPS). December, 2024.</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table border="0" cellpadding="0" cellspacing="15" width="100%">
+  <tbody>
+    <tr>
+      <!-- <td width="200"><img src="imgs/llm-pbe.png" border="1" width="210"></td>
+      <td width="20"></td> -->
       <td valign="middle" width="800">
         <p class="content"><a href="https://arxiv.org/abs/2408.12787"><strong>LLM-PBE: Assessing Data Privacy in Large Language Models</strong></a></p>
         <p class="content">Qinbin Li, Junyuan Hong, Chulin Xie, Jeffrey Tan, Rachel Xin, Junyi Hou, Xavier Yin, Zhun Wang, Dan Hendrycks, Zhangyang Wang, Bo Li, Bingsheng He, Dawn Song</p>
         <p class="content">International Conference on Very Large Data Bases (VLDB) <span style="color:red;">Best Paper Award Finalist</span>. August, 2024.</p>
-        <p class="margin-small">&nbsp;</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
       </td>
     </tr>
 </tbody>
@@ -182,13 +364,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
     <tr>
-      <td width="200"><img src="imgs/shine.png" border="1" width="210"></td>
-      <td width="20"></td>
+      <!-- <td width="200"><img src="imgs/shine.png" border="1" width="210"></td>
+      <td width="20"></td> -->
       <td valign="middle" width="800">
         <p class="content"><a href="https://proceedings.mlr.press/v235/yuan24c.html"><strong>SHINE: Shielding Backdoors in Deep Reinforcement Learning</strong></a></p>
         <p class="content">Zhuowen Yuan, Wenbo Guo, Jinyuan Jia, Bo Li, Dawn Song</p>
         <p class="content">The International Conference on Machine Learning (ICML). July, 2024.</p>
-        <p class="margin-small">&nbsp;</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
       </td>
     </tr>
 </tbody>
@@ -197,13 +379,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
     <tr>
-      <td width="200"><img src="imgs/rigorllm.png" border="1" width="210"></td>
-      <td width="20"></td>
+      <!-- <td width="200"><img src="imgs/rigorllm.png" border="1" width="210"></td>
+      <td width="20"></td> -->
       <td valign="middle" width="800">
         <p class="content"><a href="https://proceedings.mlr.press/v235/yuan24f.html"><strong>RigorLLM: Resilient Guardrails for Large Language Models against Undesired Content</strong></a></p>
         <p class="content">Zhuowen Yuan, Zidi Xiong, Yi Zeng, Ning Yu, Ruoxi Jia, Dawn Song, Bo Li</p>
         <p class="content">The International Conference on Machine Learning (ICML). July, 2024.</p>
-        <p class="margin-small">&nbsp;</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
       </td>
     </tr>
 </tbody>
@@ -212,13 +394,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
     <tr>
-      <td width="200"><img src="imgs/decoding compressedtrust.png" border="1" width="210"></td>
-      <td width="20"></td>
+      <!-- <td width="200"><img src="imgs/decoding compressedtrust.png" border="1" width="210"></td>
+      <td width="20"></td> -->
       <td valign="middle" width="800">
         <p class="content"><a href="https://proceedings.mlr.press/v235/hong24a.html"><strong>Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression</strong></a></p>
         <p class="content">Junyuan Hong, Jinhao Duan, Chenhui Zhang, Zhangheng Li, Chulin Xie, Kelsey Lieberman, James Diffenderfer, Brian Bartoldson, Ajay Jaiswal, Kaidi Xu, Bhavya Kailkhura, Dan Hendrycks, Dawn Song, Zhangyang “Atlas” Wang, Bo Li</p>
         <p class="content">The International Conference on Machine Learning (ICML). July, 2024.</p>
-        <p class="margin-small">&nbsp;</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
       </td>
     </tr>
 </tbody>
@@ -227,13 +409,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
     <tr>
-      <td width="200"><img src="imgs/c-rag.png" border="1" width="210"></td>
-      <td width="20"></td>
+      <!-- <td width="200"><img src="imgs/c-rag.png" border="1" width="210"></td>
+      <td width="20"></td> -->
       <td valign="middle" width="800">
         <p class="content"><a href="https://proceedings.mlr.press/v235/kang24a.html"><strong>C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models</strong></a></p>
         <p class="content">Mintong Kang, Nezihe Merve Gürel, Ning Yu, Dawn Song, Bo Li</p>
         <p class="content">The International Conference on Machine Learning (ICML). July, 2024.</p>
-        <p class="margin-small">&nbsp;</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
       </td>
     </tr>
 </tbody>
@@ -242,13 +424,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
       <tr>
-        <td width="200"><img src="imgs/TheFalsePromise.png" border="1" width="210"></td>
-        <td width="20"></td>
+        <!-- <td width="200"><img src="imgs/TheFalsePromise.png" border="1" width="210"></td>
+        <td width="20"></td> -->
         <td valign="middle" width="800">
           <p class="content"><a href="https://arxiv.org/abs/2305.15717"><strong>The False Promise of Imitating Proprietary Language Models</strong></a></p>
           <p class="content">Arnav Gudibande, Eric Wallace, Charlie Snell, Xinyang Geng, Hao Liu, Pieter Abbeel, Sergey Levine, Dawn Song</p>
           <p class="content">International Conference on Learning Representations (ICLR). May, 2024.</p>
-          <p class="margin-small">&nbsp;</p>
+          <!-- <p class="margin-small">&nbsp;</p> -->
         </td>
       </tr>
   </tbody>
@@ -257,13 +439,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
       <tr>
-        <td width="200"><img src="imgs/TextGuard.png" border="1" width="210"></td>
-        <td width="20"></td>
+        <!-- <td width="200"><img src="imgs/TextGuard.png" border="1" width="210"></td>
+        <td width="20"></td> -->
         <td valign="middle" width="800">
           <p class="content"><a href="https://arxiv.org/abs/2311.11225"><strong>TextGuard: Provable Defense against Backdoor Attacks on Text Classification</strong></a></p>
           <p class="content">Hengzhi Pei, Jinyuan Jia, Wenbo Guo, Bo Li, Dawn Song</p>
           <p class="content">The Network and Distributed System Security Symposium (NDSS). February, 2024.</p>
-          <p class="margin-small">&nbsp;</p>
+          <!-- <p class="margin-small">&nbsp;</p> -->
         </td>
       </tr>
   </tbody>
@@ -272,13 +454,14 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
     <tr>
-      <td width="200"><img src="imgs/DecodingTrust.png" border="1" width="210"></td>
-      <td width="20"></td>
+      <!-- <td width="200"><img src="imgs/DecodingTrust.png" border="1" width="210"></td>
+      <td width="20"></td> -->
       <td valign="middle" width="800">
         <p class="content"><a href="https://arxiv.org/abs/2306.11698"><strong>DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models</strong></a></p>
         <p class="content">Boxin Wang, Weixin Chen, Hengzhi Pei, Chulin Xie, Mintong Kang, Chenhui Zhang, Chejian Xu, Zidi Xiong, Ritik Dutta, Rylan Schaeffer, Sang T. Truong, Simran Arora, Mantas Mazeika, Dan Hendrycks, Zinan Lin, Yu Cheng, Sanmi Koyejo, Dawn Song, Bo Li</p>
         <p class="content">Advances in Neural Information Processing Systems (NeurIPS) <span style="color:red;">Outstanding Paper Award</span>. December, 2023.</p>
-        <p class="margin-small">&nbsp;</p>
+        <p class="content"><span style="color:red;">Best Scientific Cybersecurity Paper Award</span> of 2024 (by National Security Agency)</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
       </td>
     </tr>
   </tbody>
@@ -287,13 +470,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
     <tbody>
       <tr>
-        <td width="200"><img src="imgs/DiffAttack.png" border="1" width="210"></td>
-        <td width="20"></td>
+        <!-- <td width="200"><img src="imgs/DiffAttack.png" border="1" width="210"></td>
+        <td width="20"></td> -->
         <td valign="middle" width="800">
           <p class="content"><a href="https://arxiv.org/abs/2311.16124"><strong>DiffAttack: Evasion Attacks Against Diffusion-Based Adversarial Purification</strong></a></p>
           <p class="content">Mintong Kang, Dawn Song, Bo Li</p>
           <p class="content">Advances in Neural Information Processing Systems (NeurIPS). December, 2023.</p>
-          <p class="margin-small">&nbsp;</p>
+          <!-- <p class="margin-small">&nbsp;</p> -->
         </td>
       </tr>
   </tbody>
@@ -302,13 +485,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
       <tr>
-        <td width="200"><img src="imgs/BIRD.png" border="1" width="210"></td>
-        <td width="20"></td>
+        <!-- <td width="200"><img src="imgs/BIRD.png" border="1" width="210"></td>
+        <td width="20"></td> -->
         <td valign="middle" width="800">
           <p class="content"><a href="https://openreview.net/pdf?id=l3yxZS3QdT"><strong>BIRD: Generalizable Backdoor Detection and Removal for Deep Reinforcement Learning</strong></a></p>
           <p class="content">Xuan Chen, Wenbo Guo, Guanhong Tao, Xiangyu Zhang, Dawn Song</p>
           <p class="content">Advances in Neural Information Processing Systems (NeurIPS). December, 2023.</p>
-          <p class="margin-small">&nbsp;</p>
+          <!-- <p class="margin-small">&nbsp;</p> -->
         </td>
       </tr>
   </tbody>
@@ -317,13 +500,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
       <tr>
-        <td width="200"><img src="imgs/PATROL.png" border="1" width="210"></td>
-        <td width="20"></td>
+        <!-- <td width="200"><img src="imgs/PATROL.png" border="1" width="210"></td>
+        <td width="20"></td> -->
         <td valign="middle" width="800">
           <p class="content"><a href="https://www.usenix.org/system/files/usenixsecurity23-guo-wenbo.pdf"><strong>PATROL: Provable Defense against Adversarial Policy in Two-player Games</strong></a></p>
           <p class="content">Wenbo Guo, Xian Wu, Lun Wang, Xinyu Xing, Dawn Song</p>
           <p class="content">USENIX Security Symposium. August, 2023.</p>
-          <p class="margin-small">&nbsp;</p>
+          <!-- <p class="margin-small">&nbsp;</p> -->
         </td>
       </tr>
   </tbody>
@@ -332,13 +515,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
       <tr>
-        <td width="200"><img src="imgs/Extracting.png" border="1" width="210"></td>
-        <td width="20"></td>
+        <!-- <td width="200"><img src="imgs/Extracting.png" border="1" width="210"></td>
+        <td width="20"></td> -->
         <td valign="middle" width="800">
           <p class="content"><a href="https://www.usenix.org/system/files/usenixsecurity23-carlini.pdf"><strong>Extracting Training Data from Diffusion Models</strong></a></p>
           <p class="content">Nicholas Carlini, Jamie Hayes, Milad Nasr, Matthew Jagielski, Vikash Sehwag, Florian Tramèr, Borja Balle, Daphne Ippolito, Eric Wallace</p>
           <p class="content">USENIX Security Symposium. August, 2023.</p>
-          <p class="margin-small">&nbsp;</p>
+          <!-- <p class="margin-small">&nbsp;</p> -->
         </td>
       </tr>
   </tbody>
@@ -347,13 +530,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
       <tr>
-        <td width="200"><img src="imgs/Poisoning.png" border="1" width="210"></td>
-        <td width="20"></td>
+        <!-- <td width="200"><img src="imgs/Poisoning.png" border="1" width="210"></td>
+        <td width="20"></td> -->
         <td valign="middle" width="800">
           <p class="content"><a href="https://arxiv.org/abs/2305.00944"><strong>Poisoning Instruction-Tuned Language Models</strong></a></p>
           <p class="content">Alexander Wan, Eric Wallace, Sheng Shen, Dan Klein</p>
           <p class="content">The International Conference on Machine Learning (ICML). July, 2023.</p>
-          <p class="margin-small">&nbsp;</p>
+          <!-- <p class="margin-small">&nbsp;</p> -->
         </td>
       </tr>
   </tbody>
@@ -362,13 +545,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
     <tr>
-      <td width="200"><img src="imgs/Trojdiff.png" border="1" width="210"></td>
-      <td width="20"></td>
+      <!-- <td width="200"><img src="imgs/Trojdiff.png" border="1" width="210"></td>
+      <td width="20"></td> -->
       <td valign="middle" width="800">
         <p class="content"><a href="https://arxiv.org/abs/2303.05762"><strong>Trojdiff: Trojan attacks on diffusion models with diverse targets</strong></a></p>
         <p class="content">Weixin Chen, Dawn Song, Bo Li</p>
         <p class="content">The Conference on Computer Vision and Pattern Recognition (CVPR). June, 2023.</p>
-        <p class="margin-small">&nbsp;</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
       </td>
     </tr>
 </tbody>
@@ -377,13 +560,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
     <tr>
-      <td width="200"><img src="imgs/DatasetSecurity.png" border="1" width="210"></td>
-      <td width="20"></td>
+      <!-- <td width="200"><img src="imgs/DatasetSecurity.png" border="1" width="210"></td>
+      <td width="20"></td> -->
       <td valign="middle" width="800">
         <p class="content"><a href="https://arxiv.org/abs/2012.10544"><strong>Dataset security for machine learning: Data poisoning, backdoor attacks, and defenses</strong></a></p>
         <p class="content">Micah Goldblum, Dimitris Tsipras, Chulin Xie, Xinyun Chen, Avi Schwarzschild, Dawn Song, Aleksander Madry, Bo Li, Tom Goldstein</p>
         <p class="content">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI). February, 2023.</p>
-        <p class="margin-small">&nbsp;</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
       </td>
     </tr>
 </tbody>
@@ -392,13 +575,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
       <tr>
-        <td width="200"><img src="imgs/Scaling.png" border="1" width="210"></td>
-        <td width="20"></td>
+        <!-- <td width="200"><img src="imgs/Scaling.png" border="1" width="210"></td>
+        <td width="20"></td> -->
         <td valign="middle" width="800">
           <p class="content"><a href="https://arxiv.org/abs/1911.11132"><strong>Scaling Out-of-Distribution Detection for Real-World Settings</strong></a></p>
           <p class="content">Dan Hendrycks, Steven Basart, Mantas Mazeika, Andy Zou, Joe Kwon, Mohammadreza Mostajabi, Jacob Steinhardt, Dawn Song</p>
           <p class="content">The International Conference on Machine Learning (ICML). July, 2022.</p>
-          <p class="margin-small">&nbsp;</p>
+          <!-- <p class="margin-small">&nbsp;</p> -->
         </td>
       </tr>
   </tbody>
@@ -407,13 +590,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
       <tr>
-        <td width="200"><img src="imgs/Deduplicating.png" border="1" width="210"></td>
-        <td width="20"></td>
+        <!-- <td width="200"><img src="imgs/Deduplicating.png" border="1" width="210"></td>
+        <td width="20"></td> -->
         <td valign="middle" width="800">
           <p class="content"><a href="https://arxiv.org/abs/2202.06539"><strong>Deduplicating Training Data Mitigates Privacy Risks in Language Models</strong></a></p>
           <p class="content">Nikhil Kandpal, Eric Wallace, Colin Raffel</p>
           <p class="content">The International Conference on Machine Learning (ICML). July, 2022.</p>
-          <p class="margin-small">&nbsp;</p>
+          <!-- <p class="margin-small">&nbsp;</p> -->
         </td>
       </tr>
     </tbody>
@@ -422,13 +605,13 @@ In AI security research, we aim at investigating into the vulnerability of autom
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody>
     <tr>
-      <td width="200"><img src="imgs/PixMix.png" border="1" width="210"></td>
-      <td width="20"></td>
+      <!-- <td width="200"><img src="imgs/PixMix.png" border="1" width="210"></td>
+      <td width="20"></td> -->
       <td valign="middle" width="800">
         <p class="content"><a href="https://arxiv.org/abs/2112.05135"><strong>PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures</strong></a></p>
         <p class="content">Dan Hendrycks, Andy Zou, Mantas Mazeika, Leonard Tang, Bo Li, Dawn Song, and Jacob Steinhardt</p>
         <p class="content">The Conference on Computer Vision and Pattern Recognition (CVPR). June, 2022.</p>
-        <p class="margin-small">&nbsp;</p>
+        <!-- <p class="margin-small">&nbsp;</p> -->
       </td>
     </tr>
 </tbody>
@@ -436,100 +619,100 @@ In AI security research, we aim at investigating into the vulnerability of autom
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/imagenetr.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/imagenetr.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/2006.16241"><strong>The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization</strong></a></p>
       <p class="content">Dan Hendrycks, Steven Basart*, Norman Mu*, Saurav Kadavath, Frank Wang, Evan Dorundo, Rahul Desai, Tyler Zhu, Samyak Parajuli, Mike Guo, Dawn Song, Jacob Steinhardt, Justin Gilmer.</p>
       <p class="content">International Conference on Computer Vision (ICCV). October, 2021.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/gpt-memorization.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/gpt-memorization.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/2012.07805"><strong>Extracting Training Data from Large Language Models</strong></a></p>
       <p class="content">Nicholas Carlini, Florian Tramer, Eric Wallace, Matthew Jagielski, Ariel Herbert-Voss, Katherine Lee, Adam Roberts, Tom Brown, Dawn Song, Ulfar Erlingsson, Alina Oprea, Colin Raffel.</p>
       <p class="content">USENIX Security Symposium. August, 2021.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/spidersyn.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/spidersyn.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://aclanthology.org/2021.acl-long.195/"><strong>Towards Robustness of Text-to-SQL Models against Synonym Substitution</strong></a></p>
       <p class="content">Yujian Gan, Xinyun Chen, Qiuping Huang, Matthew Purver, John R. Woodward, Jinxia Xie, Pengsheng Huang.</p>
       <p class="content">Annual Meeting of the Association for Computational Linguistics (ACL). August, 2021.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/backdoorl.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/backdoorl.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/2105.00579"><strong>BACKDOORL: Backdoor Attack against Competitive Reinforcement Learning</strong></a></p>
       <p class="content">Lun Wang, Zaynah Javed, Xian Wu, Wenbo Guo, Xinyu Xing, Dawn Song.</p>
       <p class="content">International Joint Conference on Artificial Intelligence (IJCAI). August, 2021.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/imageneta.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/imageneta.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1907.07174"><strong>Natural Adversarial Examples</strong></a></p>
       <p class="content">Dan Hendrycks, Kevin Zhao*, Steven Basart*, Jacob Steinhardt, Dawn Song.</p>
       <p class="content">The Conference on Computer Vision and Pattern Recognition (CVPR). June, 2021.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/REFIT.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/REFIT.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1911.07205"><strong>REFIT: a Unified Watermark Removal Framework for Deep Learning Systems with Limited Data</strong></a></p>
       <p class="content">Xinyun Chen*, Wenxiao Wang*, Chris Bender, Yiming Ding, Ruoxi Jia, Bo Li, Dawn Song.</p>
       <p class="content">ACM Asia Conference on Computer and Communications Security (AsiaCCS). June, 2021.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/teacher-student.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/teacher-student.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/2102.13170"><strong>Understanding Robustness in Teacher-Student Setting: A New Perspective</strong></a></p>
       <p class="content">Zhuolin Yang*, Zhaoxi Chen, Tiffany (Tianhui) Cai, Xinyun Chen, Bo Li, Yuandong Tian*.</p>
       <p class="content">International Conference on Artificial Intelligence and Statistics (AISTATS). April, 2021.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/backdoor-survey.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/backdoor-survey.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/2012.10544"><strong>Dataset Security for Machine Learning: Data Poisoning, Backdoor Attacks, and Defenses</strong></a></p>
       <p class="content">Micah Goldblum, Dimitris Tsipras, Chulin Xie, Xinyun Chen, Avi Schwarzschild, Dawn Song, Aleksander Madry, Bo Li, Tom Goldstein.</p>
       <p class="content">December, 2020.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/mt_stealing.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/mt_stealing.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/2004.15015"><strong>Imitation Attacks and Defenses for Black-box Machine Translation Systems</strong></a></p>
       <p class="content">Eric Wallace, Mitchell Stern, Dawn Song.</p>
       <p class="content">Conference on Empirical Methods in Natural Language Processing (EMNLP), November, 2020.</p>
-      <p class="margin-small">&nbsp;</p>
+      <!-- <p class="margin-small">&nbsp;</p> -->
       <p class="content">
         <a href="https://www.ericswallace.com/imitation">Blog</a>
       </p>
@@ -537,77 +720,77 @@ In AI security research, we aim at investigating into the vulnerability of autom
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/tabor.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/tabor.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://ieeexplore.ieee.org/document/9338311"><strong>Towards Inspecting and Eliminating Trojan Backdoors in Deep Neural Networks</strong></a></p>
       <p class="content">Wenbo Guo*, Lun Wang*, Yan Xu, Xinyu Xing, Min Du, Dawn Song.</p>
       <p class="content">IEEE International Conference on Data Mining (ICDM), November, 2020.</p>
-      <p class="margin-small">&nbsp;</p>
+      <!-- <p class="margin-small">&nbsp;</p> -->
   </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/pretrainACL.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/pretrainACL.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/2004.06100"><strong>Pretrained Transformers Improve Out-of-Distribution Robustness</strong></a></p>
       <p class="content">Dan Hendrycks*, Xiaoyuan Liu*, Eric Wallace, Adam Dziedzic, Rishabh Krishnan, Dawn Song.</p>
       <p class="content">Annual Meeting of the Association for Computational Linguistics (ACL). July, 2020.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/secretRevealer.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/secretRevealer.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1911.07135"><strong>The Secret Revealer: Generative Model-Inversion Attacks Against Deep Neural Networks</strong></a></p>
       <p class="content">Yuheng Zhang*, Ruoxi Jia*, Hengzhi Pei, Wenxiao Wang, Bo Li, Dawn Song.</p>
       <p class="content">The Conference on Computer Vision and Pattern Recognition (CVPR). June, 2020.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/anomalyDetectionICLR.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/anomalyDetectionICLR.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1911.07116"><strong>Robust Anomaly Detection and Backdoor Attack Detection Via Differential Privacy</strong></a></p>
       <p class="content">Min Du, Ruoxi Jia, Dawn Song.</p>
       <p class="content">International Conference on Learning Representations (ICLR). May, 2020.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/selfSupervised.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/selfSupervised.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1906.12340"><strong>Using Self-Supervised Learning Can Improve Model Robustness and Uncertainty</strong></a></p>
       <p class="content">Dan Hendrycks, Mantas Mazeika*, Saurav Kadavath*, Dawn Song.</p>
       <p class="content">Advances in Neural Information Processing Systems (NeurIPS). December, 2019.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/advIT.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/advIT.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Xiao_AdvIT_Adversarial_Frames_Identifier_Based_on_Temporal_Consistency_in_Videos_ICCV_2019_paper.pdf"><strong>AdvIT: Adversarial Frames Identifier Based on Temporal Consistency In Videos</strong></a></p>
       <p class="content">Chaowei Xiao, Ruizhi Deng, Bo Li, Taesung Lee, Benjamin Edwards, Jinfeng Yi, Dawn Song, Mingyan Liu, Ian Molloy.</p>
       <p class="content">International Conference on Computer Vision (ICCV). October, 2019.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/secretSharer.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/secretSharer.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1802.08232"><strong>The Secret Sharer: Measuring Unintended Neural Network Memorization & Extracting Secrets</strong></a></p>
       <p class="content">Nicholas Carlini, Chang Liu, Jernej Kos, Úlfar Erlingsson, Dawn Song.</p>
       <p class="content">USENIX Security. August, 2019.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       <p class="content">
         Press: <a href="https://www.theregister.co.uk/2018/03/02/secrets_fed_into_ai_models_as_training_data_can_be_stolen/">The Register</a> | <a href="https://www.schneier.com/blog/archives/2018/03/extracting_secr.html">Schneier on Security</a>
       </p>
@@ -616,89 +799,89 @@ In AI security research, we aim at investigating into the vulnerability of autom
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/RL_privacy.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/RL_privacy.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1904.11082"><strong>How You Act Tells a Lot: Privacy-Leakage Attack on Deep Reinforcement Learning</strong></a></p>
       <p class="content">​Xinlei Pan, Weiyao Wang, Xiaoshuai Zhang, Bo Li, Jinfeng Yi, Dawn Song.</p>
       <p class="content">International Conference on Autonomous Agents and Multiagent Systems (AAMAS). May, 2019</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/Fig_TD_demo.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/Fig_TD_demo.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1809.10875"><strong>Characterizing Audio Adversarial Examples Using Temporal Dependency</strong></a></p>
       <p class="content">Zhuolin Yang, Bo Li, Pin-Yu Chen, Dawn Song.</p>
       <p class="content">International Conference on Learning Representations (ICLR). May, 2019.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/segmentation-eccv.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/segmentation-eccv.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1810.05162"><strong>Characterizing Adversarial Examples Based on Spatial Consistency Information for Semantic Segmentation</strong></a></p>
       <p class="content">Chaowei Xiao, Ruizhi Deng, Bo Li, Fisher Yu, Mingyan Liu, Dawn Song.</p>
       <p class="content">European Conference on Computer Vision (ECCV). September, 2018.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/blackbox-eccv.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/blackbox-eccv.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1712.09491"><strong>Exploring the Space of Black-box Attacks on Deep Neural Networks</strong></a></p>
       <p class="content">Arjun Nitin Bhagoji, Warren He, Bo Li, Dawn Song.</p>
       <p class="content">The European Conference on Computer Vision (ECCV). September, 2018.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/advGAN.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/advGAN.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1801.02610"><strong>Generating Adversarial Examples with Adversarial Networks</strong></a></p>
       <p class="content">Chaowei Xiao, Bo Li, Jun-Yan Zhu, Warren He, Mingyan Liu, Dawn Song.</p>
       <p class="content">The International Joint Conference on Artificial Intelligence (IJCAI). July, 2018.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/cat.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/cat.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1805.04807"><strong>Curriculum Adversarial Training</strong></a></p>
       <p class="content">Qizhi Cai, (Min Du), Chang Liu, Dawn Song.</p>
       <p class="content">The International Joint Conference on Artificial Intelligence (IJCAI). July, 2018.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/VQAAdv.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/VQAAdv.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1709.08693"><strong>Fooling Vision and Language Models Despite Localization and Attention Mechanism</strong></a></p>
       <p class="content">Xiaojun Xu, Xinyun Chen, Chang Liu, Anna Rohrbach, Trevor Darell, Dawn Song.</p>
       <p class="content">The Conference on Computer Vision and Pattern Recognition (CVPR). June, 2018.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/stopsign.jpg" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/stopsign.jpg" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1707.08945"><strong>Robust Physical-World Attacks on Deep Learning Visual Classification</strong></a></p>
       <p class="content">Ivan Evtimov, Kevin Eykholt, Earlence Fernandes, Tadayoshi Kohno, Bo Li, Atul Prakash, Amir Rahmati, Chaowei Xiao, Dawn Song.</p>
       <p class="content">The Conference on Computer Vision and Pattern Recognition (CVPR). June, 2018.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       <p class="content">
         Press: <a href="https://spectrum.ieee.org/cars-that-think/transportation/sensors/slight-street-sign-modifications-can-fool-machine-learning-algorithms">IEEE Spectrum</a> | <a href="https://sg.news.yahoo.com/researchers-demonstrate-limits-driverless-car-technology-151138885.html">Yahoo News</a> | <a href="https://www.wired.com/story/security-news-august-5-2017">Wired</a> | <a href="https://www.engadget.com/2017/08/06/altered-street-signs-confuse-self-driving-cars/">Engagdet</a> | <a href="http://www.telegraph.co.uk/technology/2017/08/07/graffiti-road-signs-could-trick-driverless-cars-driving-dangerously/">Telegraph</a> | <a href="http://blog.caranddriver.com/researchers-find-a-malicious-way-to-meddle-with-autonomous-cars/">Car and Driver</a> | <a href="https://www.cnet.com/roadshow/news/it-is-surprisingly-easy-to-bamboozle-a-self-driving-car/">CNET</a> | <a href="https://www.digitaltrends.com/cars/self-driving-cars-confuse-stickers-signs/">Digital Trends</a> | <a href="https://www.scmagazine.com/subtle-manipulation-of-street-signs-can-fool-self-driving-cars-researchers-report/article/680146/">SCMagazine</a> | <a href="https://www.schneier.com/blog/archives/2017/08/confusing_self-.html">Schneier on Security</a> | <a href="https://arstechnica.com/cars/2017/09/hacking-street-signs-with-stickers-could-confuse-self-driving-cars/?amp=1">Ars Technica</a> | <a href="http://fortune.com/2017/09/02/researchers-show-how-simple-stickers-could-trick-self-driving-cars/">Fortune</a> | <a href="http://www.sciencemag.org/news/2018/07/turtle-or-rifle-hackers-easily-fool-ais-seeing-wrong-thing">Science Magazine</a>
       </p>
@@ -707,57 +890,57 @@ In AI security research, we aim at investigating into the vulnerability of autom
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/advSubspace.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/advSubspace.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1801.02613"><strong>Characterizing Adversarial Subspaces Using Local Intrinsic Dimensionality</strong></a></p>
       <p class="content">Xingjun Ma, Bo Li, Yisen Wang, Sarah M. Erfani, Sudanthi Wijewickrema, Michael E. Houle, Grant Schoenebeck, Dawn Song, James Bailey.</p>
       <p class="content">International Conference on Learning Representations (ICLR). May, 2018.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/spAdv.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/spAdv.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1801.02612"><strong>Spatially Transformed Adversarial Examples
 </strong></a></p>
       <p class="content">Chaowei Xiao*, Jun-Yan Zhu*, Bo Li, Mingyan Liu, Dawn Song.</p>
       <p class="content">International Conference on Learning Representations (ICLR). May, 2018.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/decisionBoundary.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/decisionBoundary.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://openreview.net/forum?id=BkpiPMbA-&noteId=BkpiPMbA-"><strong>Decision Boundary Analysis of Adversarial Examples</strong></a></p>
       <p class="content">Warren He, Bo Li, Dawn Song.</p>
       <p class="content">International Conference on Learning Representations (ICLR). May, 2018.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/GANAdv.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/GANAdv.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1702.06832"><strong>Adversarial examples for generative models</strong></a></p>
       <p class="content">Jernej Kos, Ian Fischer, Dawn Song.</p>
       <p class="content">IEEE S&P Workshop on Deep Learning and Security. May, 2018.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/backdoorPoisoning.jpg" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/backdoorPoisoning.jpg" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1712.05526"><strong>Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning</strong></a></p>
       <p class="content">Xinyun Chen, Chang Liu, Bo Li, Kimberly Lu, Dawn Song.</p>
       <p class="content">December, 2017.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       <p class="content">
         Press: <a href="https://motherboard.vice.com/en_us/article/yw5dng/how-to-turn-a-pair-of-glasses-into-an-ai-fooling-spy-tool">Motherboard</a> | <a href="https://www.theregister.co.uk/2017/12/20/fool_ai_facial_recognition_poison/">The Register</a>
       </p>
@@ -766,34 +949,34 @@ In AI security research, we aim at investigating into the vulnerability of autom
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/ensembleDefense.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/ensembleDefense.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1706.04701"><strong>Adversarial Example Defenses: Ensembles of Weak Defenses are not Strong</strong></a></p>
       <p class="content">Warren He, James Wei, Xinyun Chen, Nicholas Carlini, Dawn Song.</p>
       <p class="content">USENIX Workshop on Offensive Technologies (WOOT). August, 2017.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/transferableAdv.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/transferableAdv.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1611.02770"><strong>Delving into Transferable Adversarial Examples and Black-box Attacks</strong></a></p>
       <p class="content">Yanpei Liu, Xinyun Chen, Chang Liu, and Dawn Song.</p>
       <p class="content">International Conference on Learning Representations (ICLR). April, 2017.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 
 <table border="0" cellpadding="0" cellspacing="15" width="100%">
   <tbody><tr>
-    <td width="200"><img src="imgs/rlAdv.png" border="1"width="210"></a></td>
-    <td width="20"></td>
+    <!-- <td width="200"><img src="imgs/rlAdv.png" border="1"width="210"></a></td>
+    <td width="20"></td> -->
     <td valign="middle" width="800"><p class="content"><a href="https://arxiv.org/abs/1705.06452"><strong>Delving into adversarial attacks on deep policies</strong></a></p>
       <p class="content">Jernej Kos and Dawn Song.</p>
       <p class="content">ICLR Workshop. April, 2017.</p>
-     <p class="margin-small">&nbsp;</p>
+     <!-- <p class="margin-small">&nbsp;</p> -->
       </tr>
 </tbody></table>
 <hr>
@@ -804,29 +987,41 @@ In AI security research, we aim at investigating into the vulnerability of autom
 
 <ul>
   <li><p class="content"><b>Faculty</b></p><ul>
-    <li><p class="content"><a href="http://www.cs.berkeley.edu/~dawnsong/">Dawn Song</a></p></li>
-    <li><p class="content"><a href="http://www.crystal-boli.com/">Bo Li</a> (UIUC)</p></li>
+    <li><p class="content"><a href="https://dawnsong.io/">Dawn Song</a></p></li>
+
   </ul><br></li>
   <li><p class="content"><b>Postdocs:</b></p><ul>
-   <li><p class="content"><a href="https://ruoxijia.info/">Ruoxi Jia</a></p></li>
+    <li><p class="content"><a href="https://xuandongzhao.github.io/">Xuandong Zhao</a></p></li>
+    <li><p class="content"><a href="https://sunyiyou.github.io/">Yiyou Sun</a></p></li>
+    <li><p class="content"><a href="https://jxhe.info/">Jingxuan He</a></p></li>
+    <li><p class="content">Yujin Potter</p></li>
   </ul><br></li>
 
   <li><p class="content"><b>Ph.D. Students:</b></p>
   <ul>
-    <li><p class="content"><a href="https://jungyhuk.github.io/">Xinyun Chen</a></p></li>
-    <li><p class="content"><a href="https://rshin.github.io/">Richard Shin</a></p></li>
-    <li><p class="content"><a href="https://people.eecs.berkeley.edu/~hendrycks/">Dan Hendrycks</a></p></li>
-    <li><p class="content"><a href="https://www.ericswallace.com/">Eric Wallace</a></p></li>
+    <li><p class="content"><a href="https://xiaoyuanliu.cn/">Xiaoyuan Liu</a></p></li>
+    <li><p class="content">Yu Gai</p></li>
+    <li><p class="content">Zhe Ye</p></li>
+    <li><p class="content">Zhun Wang</p></li>
+    <li><p class="content"><a href="https://tnshi.com/">Tianneng Shi</a></p></li>
+    <li><p class="content">Alexander Xiong</p></li>
   </ul>
   <br>
   </li>
 
   <li><p class="content"><b>Alumni:</b></p>
  <ul>
-   <li><p class="content"><a href="http://liuchang.co/">Chang Liu</a></p></li>
-   <li><p class="content">Min Du</p></li>
-   <li><p class="content">Warren He</p></li>
-   <li><p class="content">Jernej Kos (NUS)</p> </li>
+  <li><p class="content"><a href="https://henrygwb.github.io/">Wenbo Guo</a></p></li>
+  <li><p class="content"><a href="https://jungyhuk.github.io/">Xinyun Chen</a></p></li>
+  <li><p class="content"><a href="https://rshin.github.io/">Richard Shin</a></p></li>
+  <li><p class="content"><a href="https://people.eecs.berkeley.edu/~hendrycks/">Dan Hendrycks</a></p></li>
+  <li><p class="content"><a href="https://www.ericswallace.com/">Eric Wallace</a></p></li>
+  <li><p class="content"><a href="https://ruoxijia.net/">Ruoxi Jia</a></p></li>
+  <li><p class="content"><a href="https://aisecure.github.io/">Bo Li</a></p></li>
+  <li><p class="content"><a href="http://liuchang.co/">Chang Liu</a></p></li>
+  <li><p class="content">Min Du</p></li>
+  <li><p class="content">Warren He</p></li>
+  <li><p class="content">Jernej Kos (NUS)</p> </li>
   </ul><br>
   </li>
 </li>
